@@ -23,7 +23,7 @@ jobs:
           checkout-fetch-depth: 0
           java-version: ${{ matrix.java_version }}
           java-distribution: temurin
-          maven-version: 3.8.7
+          maven-version: 3.9.2
       - name: Install Android SDK
         uses: malinskiy/action-android/install-sdk@release/0.1.1
       - name: Install latest jsonschema2pojo SNAPSHOT
