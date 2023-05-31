@@ -109,10 +109,6 @@
                     <version>${maven.plugin.plugin.version}</version>
                 </plugin>
                 <plugin>
-                    <artifactId>maven-plugin-report-plugin</artifactId>
-                    <version>${maven.plugin.plugin.version}</version>
-                </plugin>
-                <plugin>
                     <artifactId>maven-project-info-reports-plugin</artifactId>
                     <version>3.4.2</version>
                 </plugin>
